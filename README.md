@@ -11,3 +11,7 @@ Expected Output: "bay"
 Test: "It will add consonants until the first vowel to the end of the word followed by "ay""
 Code: pigLatin("scoop");
 Expected Output: "oopscay"
+
+Test: "It will move 'qu' to the end of the word and add 'ay'"
+Code: pigLatin("quick");
+Expected Output: "ickquay"
